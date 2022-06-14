@@ -488,7 +488,7 @@ export default class AdAccount extends AbstractCrudObject {
       '/adsets',
       fields,
       params,
-      null,
+      AdSet,
       pathOverride,
     );
   }
